@@ -1,0 +1,33 @@
+{
+  "name": "davjs",
+  "version": "0.0.1-dev",
+  "description": "A simple, lightweight, and fast JavaScript library for making WebDAV requests.",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/zfben/davjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zfben/davjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zfben/davjs/issues"
+  },
+  "funding": "https://paypal.me/zhufengben",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@faasjs/request": "*"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  },
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.0.0"
+  }
+}
